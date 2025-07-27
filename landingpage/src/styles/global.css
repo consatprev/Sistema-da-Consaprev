@@ -1,0 +1,48 @@
+/* Importando fontes do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;700&family=Roboto:wght@400;700&family=Trirong:wght@400;700&display=swap');
+
+@import url(./header.css);
+@import url(./servicos.css);
+@import url(./details.css);
+@import url(./about.css);
+@import url(./parceiros.css);
+@import url(./contact.css);
+@import url(./testimonials.css);
+@import url(./workus.css);
+@import url(./footer.css);
+
+*, body {
+    font-family: 'Trirong', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+
+}
+@keyframes appear {
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+
+.block {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 20%;
+}
+
+h1, a {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-family: 'Abhaya Libre', serif;
+}

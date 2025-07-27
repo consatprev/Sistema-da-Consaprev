@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConsAt'PeV</title>
+    <link rel="stylesheet" href="./src/styles/global.css" />
+    <link rel="stylesheet" href="./src/styles/benseg.css" />
+    <link rel="shortcut icon" href="./public/favicon cansat.ico" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
+    />
+    
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="container">
+                <div class="logo">
+                <a href="index.html"><img src="./public/consat.png" alt="logo"/></a>
+                </div>
+                <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="/#about">Sobre</a></li>
+                    <li><a href="/#services">Serviços</a></li>
+                    <li><a href="/#parceiros">Nossos Parceiros</a></li>
+                    <li><a href="/#contact">Contato</a></li>
+                </ul>
+                </div>
+                <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+                </span>
+            </div>
+        </nav>
+    </header>
+    
+    <main class="main-sst">
+        <section class="sst-hero">
+            <h1 class="sst-title">Saúde e Segurança do Trabalho Integrada ao e-Social</h1>
+            <p class="sst-text">
+            A gestão de SST (Segurança e Saúde do Trabalho) integrada ao e-Social garante o envio correto dos eventos obrigatórios, como acidentes de trabalho e monitoramento da saúde ocupacional. Com um sistema integrado à folha de pagamento, é possível centralizar informações, gerar relatórios e gráficos para análise, além de controlar exames admissionais, demissionais e periódicos, assegurando a conformidade legal e a segurança dos colaboradores.
+            </p>
+            <p class="sst-text destaque">
+            Além disso, nossa marca individual <strong>BenSeg</strong> oferece serviços de consultoria em saúde e segurança no trabalho, ajudando sua empresa a identificar e mitigar riscos, prevenir acidentes e garantir um ambiente de trabalho seguro e saudável.
+            </p>
+        </section>
+    </main>
+
+
+    <section id="testimonials">
+      <h2 class="title">Depoimento de clientes da BenSeg</h2>
+      <div class="testimonials">
+        <blockquote>
+          <p>"Lorem"</p>
+          <cite>- Nome do cliente</cite>
+        </blockquote>
+        <blockquote>
+          <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum quisquam necessitatibus molestiae,
+            explicabo in saepe, totam atque voluptas reiciendis esse quae tenetur. Quae, incidunt assumenda. Totam quia
+            delectus numquam soluta!."</p>
+          <cite>- Nome do cliente</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    
+
+    <footer class="rodape">
+        <div class="rodape-container">
+            <div class="rod">
+              <p class="rodape-texto">
+                
+              </p>
+            </div>
+         
+        </div>
+      </footer>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="./src/js/navbar.js"></script>
+    <script src="./src/js/footer.js"></script>
+
+      <script>
+      $(window).scroll(function () {
+        if ($(document).scrollTop() > 50) {
+          $(".nav").addClass("affix");
+          console.log("OK");
+        } else {
+          $(".nav").removeClass("affix");
+        }
+      });
+    </script>
+</body>
+</html>
+
